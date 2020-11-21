@@ -1,0 +1,98 @@
+.All{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Card{
+    width:300px;
+    height: 480px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 1px #000000;
+    margin:20px;
+    overflow: hidden;
+}
+
+.edit {
+    margin-left: 16.8rem;
+    margin-top: 0.5rem;
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+.upper-container {
+    height: 150px;
+    background-image: url("https://images.unsplash.com/photo-1576502200916-3808e07386a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjI0MX0&auto=format&fit=crop&w=1046&q=80");
+}
+
+.image-container img{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 5px;
+    transform: translate(95px,55px);
+}
+
+img{
+    border: 2px solid #ff754e;
+}
+
+.lower-container{
+    height: 250px;
+    background-color: white;
+    text-align: center;
+    font-family: sans-serif, Courier, monospace;
+    margin-top: 4.5rem;
+}
+
+.lower-container h3,h4,p {
+    margin: 0;
+    padding: 0;
+}
+
+.lower-container h3 {
+    color: black;
+    font-weight: 600;
+    font-size:1.5rem;
+}
+
+.lower-container h4{
+    color:#fc744e;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.lower-container p{
+    margin:1rem;
+    font-weight: 300;
+    color: black;
+    font-size: 0.9rem;
+    text-align: center
+}
+  button{
+      margin: 1rem;
+      margin-top:0;
+      font:bold;
+      background-image: url("https://images.unsplash.com/photo-1576502200916-3808e07386a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjI0MX0&auto=format&fit=crop&w=1046&q=80");
+      padding: 0.6rem;
+      border: 0.5px solid white;
+      border-radius: 100px;
+      transition-duration: 0.5s ;
+      animation: ease-in-out;
+  }
+
+  button:hover {
+      background-image: url("https://images.unsplash.com/photo-1576502200916-3808e07386a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjI0MX0&auto=format&fit=crop&w=1046&q=80");
+      transform: scale(1.2);
+      border:none;
+      color:white;
+    }
+
+    .icons {
+        font-size: 2rem;
+        color: white;
+    }
+
